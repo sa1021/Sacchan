@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  cursor:default;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+  clear: left;
+}
+
+.top-wrapper {
+  max-width: 1170px;
+  padding: 180px 0 100px 0;
+  width: 100%;
+  margin:0 auto;
+  background-image: url("写真/hedder.jpg");
+  background-size: cover;
+  letter-spacing: 1px;
+}
+
+.top-wrapper h1 {
+  color:white;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left:30px;
+  opacity: 0.7;
+}
+
+.top-wrapper h2 {
+  color: black;
+  font-size:35px;
+  margin-left:30px;
+  opacity: 0.7;
+}
+
+
+header {
+  color:white;
+  height: 65px;
+  width: 100%;
+  background-color:#000;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+  margin-left:20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.login{
+  float:left;
+  font-size:10px;
+  margin:10px 0;
+  text-align:center;
+}
+
+li{
+  list-style:none;
+}
+
+.log-botan{
+  border:1px solid white;
+}
+
+.log-botan:hover{
+  opacity: 0.5;
+  cursor:pointer;
+}
+
+.fa-bars{
+  float:left;
+  margin:25px;
+}
+
+.sacchan-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url("写真/usiro.jpg");
+  background-size: cover;
+  text-align: center;
+  height:1400px;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left:50px;
+  color:black;
+}
+
+.heading h2{
+    font-size: 40px;
+}
+
+span{
+  opacity: 0.5;
+}
+
+ .lessons h5{
+  font-size:10px;
+  margin-bottom:-30px;
+  opacity: 0.7;
+}
+
+.lessons h2{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.text-contents{
+  font-size:15px;
+  margin-left:30px;
+  font-weight: normal;
+}
+
+.lesson1{
+  float:left;
+  margin:20px 0;
+}
+
+.lesson2{
+  float:right;
+  margin:20px 0 20px 300px;
+
+}
+
+.lesson-icon{
+  float:left;
+}
+
+.lesson-icon2{
+  float:right;
+}
+
+
+.message{
+  background-color:#f7f7f7;
+  height:550px;
+}
+
+.gods h2{
+  font-size:15px;
+}
+
+.gods p{
+  font-size:13px;
+  margin-top:-10px;
+}
+
+.gods-s{
+  float:left;
+  margin:30px 60px;
+}
+
+.gods-p{
+  float:left;
+  margin:30px 60px;
+}
+
+.gods-t{
+  float:left;
+  margin:30px 60px;
+}
+
+footer {
+  width:100%;
+  float:left;
+  background-color:black;
+  color:white;
+}
+
+.info h2{
+  font-size:20px;
+}
+
+.botan{
+  font-size:17px;
+  margin:0 0 20px 20px;
+}
+
+.twitter{
+  margin-bottom:20px;
+}
