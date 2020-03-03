@@ -75,6 +75,7 @@ li{
 
 .log-botan{
   border:1px solid white;
+  text-decoration:none;
 }
 
 .log-botan:hover{
